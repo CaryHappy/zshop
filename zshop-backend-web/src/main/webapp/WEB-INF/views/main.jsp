@@ -22,7 +22,7 @@
         $(function(){
             // 点击切换页面
             $("#product-type-set").click(function() {
-                $("#frame-id").attr("src", "productTypeManager.html");
+                $("#frame-id").attr("src", "${pageContext.request.contextPath}/backend/productType/findAll");
             });
             $("#product-set").click(function() {
                 $("#frame-id").attr("src", "productManager.html");
@@ -72,7 +72,7 @@
                     </ul>
                 </div>
                 <div class="col-xs-10" id="userPanel">
-                    <iframe id="frame-id" src="productTypeManager.html" width="100%" height="100%" frameborder="0" scrolling="no">
+                    <iframe id="frame-id" src="${pageContext.request.contextPath}/backend/productType/findAll" width="100%" height="100%" frameborder="0" scrolling="no">
                     </iframe>
                 </div>
 

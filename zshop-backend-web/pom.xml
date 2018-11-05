@@ -48,8 +48,8 @@
 
         <!-- 依赖于service -->
         <dependency>
-            <groupId>com.itany.zshop</groupId>
-            <artifactId>zshop_service</artifactId>
+            <groupId>cn.edu.bupt.zshop</groupId>
+            <artifactId>zshop-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

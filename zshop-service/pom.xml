@@ -34,10 +34,11 @@
 
         <!-- 依赖于dao-->
         <dependency>
-            <groupId>com.itany.zshop</groupId>
-            <artifactId>zshop_dao</artifactId>
+            <groupId>cn.edu.bupt.zshop</groupId>
+            <artifactId>zshop-dao</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
     <build>

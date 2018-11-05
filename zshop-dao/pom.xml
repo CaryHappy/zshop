@@ -56,19 +56,36 @@
 
         <!-- 依赖于common和pojo-->
         <dependency>
-            <groupId>com.itany.zshop</groupId>
-            <artifactId>zshop_common</artifactId>
+            <groupId>cn.edu.bupt.zshop</groupId>
+            <artifactId>zshop-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.itany.zshop</groupId>
-            <artifactId>zshop_pojo</artifactId>
+            <groupId>cn.edu.bupt.zshop</groupId>
+            <artifactId>zshop-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
 
     <build>
-
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
     </build>
 </project>
